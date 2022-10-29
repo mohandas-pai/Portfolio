@@ -4,6 +4,7 @@ import LogoM from "../../assets/images/logo-dm.png"
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import Photo from './Photo';
+import Loader from 'react-loaders';
 
 const Home = () => {
 
@@ -17,7 +18,7 @@ const Home = () => {
         }, 4000)
       }, [])
 
-    return(
+    return(<>
         <div className='container home-page'>
             <div className='text-zone'>
                 <h1>
@@ -38,6 +39,8 @@ const Home = () => {
             </div>
             <Photo/>
         </div>
+        <Loader type="cube-transition"/>
+        </>
     );
 };
 
