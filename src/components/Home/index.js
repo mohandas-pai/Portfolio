@@ -9,7 +9,7 @@ import Photo from './Photo'
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['o','h','a','n','d','a','s'];
+    const nameArray = ['o','h','a','n','d','a','s',','];
     const jobArray = ['S','o','f','t','w','a','r','e',' ','D','e','v','e','l','o','p','e','r'];
 
     useEffect(() => {

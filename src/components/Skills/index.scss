@@ -1,0 +1,43 @@
+.skills-container{
+    position: absolute;
+    width: 80%;
+    right: -15%;
+    left: auto;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+#canvas-container {
+	position: relative;
+	height: 100%;
+	width: 100%
+}
+
+#skill-canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: auto;
+	height: 100%
+  }
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+  
+#skill-canvas li {
+    font-size: 30px;
+    font-family: 'Coolvetica'
+}

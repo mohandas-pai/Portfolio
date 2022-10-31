@@ -35,7 +35,8 @@
   }
 
   .about-page,
-  .contact-page{
+  .contact-page,
+  .skills-page{
     .text-zone{
       position: absolute;
       left: 10%;
@@ -73,6 +74,55 @@
         }
         &:nth-of-type(3){
           animation-delay: 2.0s;
+        }
+      }
+    }
+    .tech{
+      color: #ffd700;
+    }
+    .flat-button{
+      color: #ffd700;
+      font-size: 13px;
+      background: 0 0;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 10px 18px;
+      border: 1px solid aliceblue;
+      margin-top: 25px;
+      float: left;
+      animation: fadeIn 1s 2s backwards;
+      white-space: nowrap;
+  
+      &:hover{
+          background: #ffd700;
+          color: #000814;
+          border: 1px solid#ffd700;
+      }
+  }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .page{
+      position: initial;
+    }
+
+    .container{
+      position: initial;
+      height: auto;
+      min-height: auto;
+
+      &.about-page,
+      &.contact-page,
+      &.skills-page{
+        .text-zone{
+          position: initial;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
         }
       }
     }

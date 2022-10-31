@@ -26,7 +26,7 @@ const About = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={["A","b","o","u","t"," ","m","e"]} idx={10}/>
             </h1>
             <p>I am a {age} year-old developer, from India.</p>
-            <p>I am pursuing my Masters in Computer Science from University Paderborn, Germany. I have has 2+ years of expirence prior to this. </p>
+            <p>I am pursuing my Masters in Computer Science from University Paderborn, Germany. I have had 2+ years of expirence as a software engineer. </p>
             <p>I am well versed in various programmming languages like java, python, javascript, etc.</p>
             </div>
 
