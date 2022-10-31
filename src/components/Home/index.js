@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react'
 import LogoM from "../../assets/images/logo-dm.png"
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
-import Photo from './Photo';
 import Loader from 'react-loaders';
+import Photo from './Photo'
 
 const Home = () => {
 

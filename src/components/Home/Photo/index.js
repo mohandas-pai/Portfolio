@@ -4,9 +4,9 @@ import Moh from "../../../assets/images/moh.png"
 const Photo = () => {
 
     return(
-        <div className="photos-contain" >
+        <div className="photo-container" >
             <img className='mohphoto' src={Moh} alt="M"/>
-            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+            <svg className='mohsvg' version="1.0" xmlns="http://www.w3.org/2000/svg"
               width="300.000000pt" height="400.000000pt" viewBox="0 0 300.000000 400.000000">
               <g className="svg-container" transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)"
               fill="none" stroke="none">
