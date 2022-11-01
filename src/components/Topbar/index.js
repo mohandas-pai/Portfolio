@@ -32,7 +32,7 @@ const Topbar = () =>{
             <FontAwesomeIcon
                 onClick={()=>setShowNav(false)}
                 icon={faClose}
-                color="#ffd60a"
+                color="#003566"
                 size='3x'
                 className='close-icon'
             />

@@ -33,11 +33,14 @@ const WordCloud = () => {
     }
 
     useEffect(() => {
-        if (isLoading) {
-          TagCloud(container, techs, options)
-          setLoad(false)
+        function loadEffect(){
+            if (isLoading) {
+            TagCloud(container, techs, options)
+            setLoad(false)
+            }
         }
-    })
+        loadEffect();
+    },[]) // eslint-disable-line react-hooks/exhaustive-deps
 
     return(
         <div className='main'>
