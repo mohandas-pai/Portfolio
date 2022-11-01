@@ -1,0 +1,82 @@
+
+.my-apps{
+    img{
+        width: 100px;
+        display: inline-block;
+        cursor: pointer;
+        margin: 0 15px;
+        transition-duration: 0.2s;
+
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+    
+}
+
+.logo-container{
+    width: 50%;
+    height: 50%;
+    top: 0;
+    padding-top: 0%;
+    position: absolute;
+    right: 0;
+
+    .amazing-logo{
+        width: 50%;
+        padding-left: 25%;
+        padding-top: 15%;
+        height: auto;
+    }
+
+    .flat-button{
+        margin-right: 39%;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after{
+        display: none;
+    }
+
+    .amazing-apps{
+        .text-zone{
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+            h1{
+                font-size: 53px;
+            }
+        }
+        .logo-container{
+            position: relative;
+            width: 100px;
+            top: 50px;
+            right: 0;
+            box-sizing: border-box;
+            height: auto;
+            margin: auto;
+            left: 0;
+
+            .amazing-logo{
+                position: absolute;
+                top: auto;
+                right: auto;
+                left: -50%;
+                margin: auto;
+                width: 200%;
+            }
+        }
+        .flat-button{
+            float: none;
+            display: inline;
+            margin: 250px auto auto;
+            width: 145px;
+        }
+    }
+}

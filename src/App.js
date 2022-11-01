@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import About from './components/About';
 import Contact from './components/Contacts';
 import Skills from './components/Skills';
+import AmazingApps from './components/AmazingApps';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" index element={<About />} />
           <Route path="/contact" index element={<Contact />} />
           <Route path="/skills" index element={<Skills />} />
+          <Route path="/amazingapps" index element={<AmazingApps />} />
         </Route>
       </Routes>
     </>
