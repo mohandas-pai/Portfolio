@@ -1,43 +1,53 @@
-.skills-container{
-    position: absolute;
-    width: 80%;
-    right: -15%;
-    left: auto;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 2;
+.wordcloud-container {
+  float: right;
+  width: 53%;
+  height: 115%;
+  margin-top: -3%;
+
+  .tagcloud {
+    color: #ffd700;
+    opacity: 0.5;
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 10% auto;
+  }
+  .tagcloud--item:hover {
+    color: aliceblue;
+  }
 }
 
-#canvas-container {
-	position: relative;
-	height: 100%;
-	width: 100%
-}
 
-#skill-canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	width: auto;
-	height: 100%
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after{
+      display: none;
   }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+  .skills-page{
+      .text-zone{
+          position: initial;
+          width: 100%;
+          transform: none;
+          padding: 10px;
+          box-sizing: border-box;
+      }
+      .wordcloud-container{
+          position: initial;
+          width: 100%;
+          height: 0%;
+          overflow: hidden;
+
+          .tagcloud {
+            color: #ffd700;
+            opacity: 0.5;
+            font-family: 'Coolvetica', sans-serif;
+            font-size: 15px;
+            font-weight: 200;
+            margin: 10% auto;
+          }
+      }
+  }
   
-#skill-canvas li {
-    font-size: 30px;
-    font-family: 'Coolvetica'
 }

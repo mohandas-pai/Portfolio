@@ -75,10 +75,26 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .stage-cube-cont{
-        position: initial;
-        width: 100%;
-        height: 0%;
-        overflow: visible;
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after{
+        display: none;
     }
+
+    .about-page{
+        .text-zone{
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .stage-cube-cont{
+            position: initial;
+            width: 100%;
+            height: 0%;
+            overflow: visible;
+        }
+    }
+    
 }
