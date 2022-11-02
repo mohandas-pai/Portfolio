@@ -33,7 +33,7 @@ const Contact = () => {
                     <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={["C","o","n","t","a","c","t"," ","m","e"]} idx={10}/>
                     </h1>
-                    <p>Hello contact me please</p>
+                    <p>You can contact me by filling this form.</p>
                     <div className='contact-form'>
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
